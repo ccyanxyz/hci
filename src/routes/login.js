@@ -33,7 +33,7 @@ router.post('/', (req, res) => {
 		if(user.password === password) {
 			console.log(user.mail + ' login success');
 			req.session.user = user;
-			return res.redirect('../');
+			return res.redirect('/dashboard');
 		} else {
 			return res.redirect('/login');
 		}
