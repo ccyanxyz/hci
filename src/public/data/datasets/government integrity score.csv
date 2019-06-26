@@ -1,0 +1,196 @@
+country,ISO Country code,government integrity score
+Afghanistan,AFG,26.20
+Albania,ALB,39.90
+Algeria,DZA,29.00
+Andorra,AND,-
+Angola,AGO,18.90
+Antigua & Barbuda,ATG,-
+Argentina,ARG,32.60
+Armenia,ARM,40.50
+Australia,AUS,77.40
+Austria,AUT,73.50
+Azerbaijan,AZE,39.90
+Bahamas,BHS,50.90
+Bahrain,BHR,51.80
+Bangladesh,BGD,21.20
+Barbados,BRB,53.80
+Belarus,BLR,42.00
+Belgium,BEL,70.90
+Belize,BLZ,34.70
+Benin,BEN,30.20
+Bhutan,BTN,50.90
+Bolivia,BOL,23.10
+Bosnia and Herzegovina,BIH,28.40
+Botswana,BWA,56.60
+Brazil,BRA,31.40
+Brunei,BRN,45.40
+Bulgaria,BGR,38.20
+Burkina Faso,BFA,31.80
+Burundi,BDI,26.20
+Cabo Verde,CPV,42.80
+Cambodia,KHM,17.70
+Cameroon,CMR,23.40
+Canada,CAN,78.30
+Central African Republic,CAF,24.60
+Chad,TCD,23.10
+Chile,CHL,61.20
+China,CHN,47.30
+Colombia,COL,33.40
+Comoros,COM,27.50
+Congo (Dem. Rep.),COD,27.30
+Congo (Rep.),COG,24.60
+Costa Rica,CRI,51.80
+Cote d'Ivoire,CIV,36.60
+Croatia,HRV,40.50
+Cuba,CUB,38.10
+Cyprus,CYP,41.30
+Czech Republic,CZE,51.10
+Denmark,DNK,84.10
+Djibouti,DJI,29.00
+Dominica,DMA,49.90
+Dominican Republic,DOM,26.20
+Ecuador,ECU,30.20
+Egypt,EGY,32.20
+El Salvador,SLV,25.20
+Equatorial Guinea,GNQ,26.20
+Eritrea,ERI,23.40
+Estonia,EST,75.70
+Eswatini,SWZ,26.90
+Ethiopia,ETH,37.70
+Fiji,FJI,34.80
+Finland,FIN,89.80
+France,FRA,65.10
+Gabon,GAB,33.40
+"Gambia, The",GMB,36.80
+Georgia,GEO,61.80
+Germany,DEU,75.30
+Ghana,GHA,32.90
+Greece,GRC,37.90
+Grenada,GRD,-
+Guatemala,GTM,27.30
+Guinea,GIN,26.90
+Guinea-Bissau,GNB,27.30
+Guyana,GUY,34.80
+Haiti,HTI,24.60
+Honduras,HND,28.20
+Hungary,HUN,36.40
+Iceland,ISL,77.30
+India,IND,47.20
+Indonesia,IDN,42.80
+Iran,IRN,32.60
+Iraq,IRQ,23.40
+Ireland,IRL,79.00
+Israel,ISR,61.20
+Italy,ITA,40.10
+Jamaica,JAM,39.40
+Japan,JPN,79.20
+Jordan,JOR,51.90
+Kazakhstan,KAZ,44.60
+Kenya,KEN,27.50
+Kiribati,KIR,37.90
+Korea (Dem. People’s Rep.),PRK,25.20
+Korea (Rep.),KOR,49.90
+Kosovo,-,45.40
+Kuwait,KWT,36.60
+Kyrgyzstan,KGZ,29.40
+Laos,LAO,33.10
+Latvia,LVA,45.40
+Lebanon,LBN,20.20
+Lesotho,LSO,32.90
+Liberia,LBR,32.00
+Libya,LBY,23.10
+Liechtenstein,LIE,-
+Lithuania,LTU,50.90
+Luxembourg,LUX,79.00
+Macedonia,MKD,47.40
+Madagascar,MDG,17.80
+Malawi,MWI,28.90
+Malaysia,MYS,54.80
+Maldives,MDV,36.60
+Mali,MLI,31.40
+Malta,MLT,49.90
+Marshall Islands,MHL,-
+Mauritania,MRT,28.90
+Mauritius,MUS,52.10
+Mexico,MEX,26.90
+Micronesia,FSM,38.80
+Moldova,MDA,26.60
+Monaco,MCO,-
+Mongolia,MNG,34.80
+Montenegro,MNE,38.10
+Morocco,MAR,41.30
+Mozambique,MOZ,28.20
+Myanmar,MMR,28.20
+Namibia,NAM,45.40
+Nauru,NRU,-
+Nepal,NPL,24.60
+Netherlands,NLD,86.00
+New Zealand,NZL,95.70
+Nicaragua,NIC,24.20
+Niger,NER,30.40
+Nigeria,NGA,14.40
+Norway,NOR,93.60
+Oman,OMN,51.50
+Pakistan,PAK,27.30
+Palau,PLW,-
+Panama,PAN,38.80
+Papua New Guinea,PNG,33.10
+Paraguay,PRY,28.30
+Peru,PER,36.60
+Philippines,PHL,34.40
+Poland,POL,50.90
+Portugal,PRT,56.80
+Qatar,QAT,71.60
+Romania,ROU,40.00
+Russia,RUS,38.10
+Rwanda,RWA,61.20
+Saint Kitts and Nevis,KNA,-
+Saint Lucia,LCA,50.90
+Saint Vincent and the Grenadines,VCT,51.50
+Samoa,WSM,40.10
+San Marino,SMR,-
+Sao Tome and Principe,STP,39.40
+Saudi Arabia,SAU,49.90
+Senegal,SEN,42.60
+Serbia,SRB,36.50
+Seychelles,SYC,38.80
+Sierra Leone,SLE,22.00
+Singapore,SGP,91.20
+Slovakia,SVK,38.20
+Slovenia,SVN,52.10
+Solomon Islands,SLB,36.80
+Somalia,SOM,17.80
+South Africa,ZAF,45.40
+South Sudan,SSD,-
+Spain,ESP,51.50
+Sri Lanka,LKA,30.70
+Sudan,SDN,21.20
+Suriname,SUR,39.90
+Sweden,SWE,92.90
+Switzerland,CHE,82.80
+Syria,SYR,23.10
+Taiwan,TWN,70.90
+Tajikistan,TJK,38.20
+Tanzania,TZA,31.80
+Thailand,THA,34.70
+Timor-Leste,TLS,32.00
+Togo,TGO,31.40
+Tonga,TON,40.50
+Trinidad and Tobago,TTO,33.10
+Tunisia,TUN,36.80
+Turkey,TUR,42.00
+Turkmenistan,TKM,27.30
+Tuvalu,TUV,-
+Uganda,UGA,28.30
+Ukraine,UKR,29.00
+United Arab Emirates,ARE,77.30
+United Kingdom,GBR,79.00
+United States,USA,71.90
+Uruguay,URY,71.60
+Uzbekistan,UZB,24.20
+Vanuatu,VUT,75.40
+Venezuela,VEN,7.50
+Vietnam,VNM,30.40
+Yemen,YEM,21.20
+Zambia,ZMB,36.30
+Zimbabwe,ZWE,18.90

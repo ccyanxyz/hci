@@ -1,0 +1,196 @@
+country,ISO Country code,GINI index
+Afghanistan,AFG,-
+Albania,ALB,29.0
+Algeria,DZA,35.3
+Andorra,AND,-
+Angola,AGO,42.7
+Antigua & Barbuda,ATG,-
+Argentina,ARG,41.7
+Armenia,ARM,31.5
+Australia,AUS,30.3
+Austria,AUT,30.5
+Azerbaijan,AZE,33.7
+Bahamas,BHS,-
+Bahrain,BHR,-
+Bangladesh,BGD,32.1
+Barbados,BRB,-
+Belarus,BLR,26.5
+Belgium,BEL,25.9
+Belize,BLZ,-
+Benin,BEN,36.5
+Bhutan,BTN,38.8
+Bolivia,BOL,47.0
+Bosnia and Herzegovina,BIH,33.8
+Botswana,BWA,60.5
+Brazil,BRA,49.0
+Brunei,BRN,-
+Bulgaria,BGR,40.2
+Burkina Faso,BFA,39.5
+Burundi,BDI,42.4
+Cabo Verde,CPV,-
+Cambodia,KHM,37.9
+Cameroon,CMR,44.6
+Canada,CAN,32.1
+Central African Republic,CAF,43.6
+Chad,TCD,43.3
+Chile,CHL,50.5
+China,CHN,46.5
+Colombia,COL,51.1
+Comoros,COM,55.9
+Congo (Dem. Rep.),COD,42.1
+Congo (Rep.),COG,48.9
+Costa Rica,CRI,48.5
+Cote d'Ivoire,CIV,41.5
+Croatia,HRV,30.8
+Cuba,CUB,-
+Cyprus,CYP,34.8
+Czech Republic,CZE,-
+Denmark,DNK,29.0
+Djibouti,DJI,40.9
+Dominica,DMA,-
+Dominican Republic,DOM,47.1
+Ecuador,ECU,45.9
+Egypt,EGY,31.8
+El Salvador,SLV,36.0
+Equatorial Guinea,GNQ,-
+Eritrea,ERI,-
+Estonia,EST,34.8
+Eswatini,SWZ,50.4
+Ethiopia,ETH,33.0
+Fiji,FJI,-
+Finland,FIN,27.2
+France,FRA,29.3
+Gabon,GAB,42.2
+"Gambia, The",GMB,50.2
+Georgia,GEO,40.1
+Germany,DEU,27.0
+Ghana,GHA,42.3
+Greece,GRC,36.7
+Grenada,GRD,-
+Guatemala,GTM,53.0
+Guinea,GIN,39.4
+Guinea-Bissau,GNB,-
+Guyana,GUY,44.6
+Haiti,HTI,60.8
+Honduras,HND,47.1
+Hungary,HUN,28.2
+Iceland,ISL,28.0
+India,IND,35.2
+Indonesia,IDN,36.8
+Iran,IRN,44.5
+Iraq,IRQ,-
+Ireland,IRL,31.3
+Israel,ISR,42.8
+Italy,ITA,31.9
+Jamaica,JAM,35.0
+Japan,JPN,37.9
+Jordan,JOR,39.7
+Kazakhstan,KAZ,26.3
+Kenya,KEN,48.5
+Kiribati,KIR,-
+Korea (Dem. People’s Rep.),PRK,-
+Korea (Rep.),KOR,35.7
+Kosovo,-,23.2
+Kuwait,KWT,-
+Kyrgyzstan,KGZ,33.4
+Laos,LAO,36.7
+Latvia,LVA,34.5
+Lebanon,LBN,-
+Lesotho,LSO,63.2
+Liberia,LBR,32.0
+Libya,LBY,-
+Liechtenstein,LIE,-
+Lithuania,LTU,37.9
+Luxembourg,LUX,30.4
+Macedonia,MKD,33.7
+Madagascar,MDG,41.0
+Malawi,MWI,46.1
+Malaysia,MYS,46.2
+Maldives,MDV,38.4
+Mali,MLI,40.1
+Malta,MLT,28.1
+Marshall Islands,MHL,-
+Mauritania,MRT,37.0
+Mauritius,MUS,35.9
+Mexico,MEX,48.2
+Micronesia,FSM,61.1
+Moldova,MDA,26.8
+Monaco,MCO,-
+Mongolia,MNG,34.0
+Montenegro,MNE,31.9
+Morocco,MAR,40.9
+Mozambique,MOZ,45.6
+Myanmar,MMR,-
+Namibia,NAM,59.7
+Nauru,NRU,-
+Nepal,NPL,32.8
+Netherlands,NLD,30.3
+New Zealand,NZL,36.2
+Nicaragua,NIC,47.1
+Niger,NER,34.0
+Nigeria,NGA,48.8
+Norway,NOR,26.8
+Oman,OMN,-
+Pakistan,PAK,30.7
+Palau,PLW,-
+Panama,PAN,50.7
+Papua New Guinea,PNG,50.9
+Paraguay,PRY,51.7
+Peru,PER,45.3
+Philippines,PHL,44.4
+Poland,POL,30.8
+Portugal,PRT,33.9
+Qatar,QAT,-
+Romania,ROU,27.3
+Russia,RUS,41.2
+Rwanda,RWA,50.4
+Saint Kitts and Nevis,KNA,-
+Saint Lucia,LCA,-
+Saint Vincent and the Grenadines,VCT,-
+Samoa,WSM,-
+San Marino,SMR,-
+Sao Tome and Principe,STP,30.8
+Saudi Arabia,SAU,45.9
+Senegal,SEN,40.3
+Serbia,SRB,38.7
+Seychelles,SYC,-
+Sierra Leone,SLE,34.0
+Singapore,SGP,45.9
+Slovakia,SVK,23.7
+Slovenia,SVN,24.4
+Solomon Islands,SLB,-
+Somalia,SOM,-
+South Africa,ZAF,62.5
+South Sudan,SSD,46.0
+Spain,ESP,35.9
+Sri Lanka,LKA,39.2
+Sudan,SDN,-
+Suriname,SUR,-
+Sweden,SWE,24.9
+Switzerland,CHE,29.5
+Syria,SYR,-
+Taiwan,TWN,33.6
+Tajikistan,TJK,32.6
+Tanzania,TZA,37.6
+Thailand,THA,44.5
+Timor-Leste,TLS,31.9
+Togo,TGO,46.0
+Tonga,TON,-
+Trinidad and Tobago,TTO,-
+Tunisia,TUN,40.0
+Turkey,TUR,40.2
+Turkmenistan,TKM,40.8
+Tuvalu,TUV,-
+Uganda,UGA,39.5
+Ukraine,UKR,25.5
+United Arab Emirates,ARE,-
+United Kingdom,GBR,32.4
+United States,USA,45.0
+Uruguay,URY,41.6
+Uzbekistan,UZB,36.8
+Vanuatu,VUT,-
+Venezuela,VEN,39.0
+Vietnam,VNM,34.8
+Yemen,YEM,37.9
+Zambia,ZMB,57.5
+Zimbabwe,ZWE,43.2
