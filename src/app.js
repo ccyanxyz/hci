@@ -10,6 +10,7 @@ var mongoose = require('mongoose')
 // routes
 var registerRouter = require('./routes/register')
 var loginRouter = require('./routes/login')
+var dashboardRouter = require('./routes/dashboard')
 
 var app = express();
 
@@ -31,7 +32,9 @@ app.use(session({
 // database settings
 mongoose.connect('mongodb://localhost:27017/vis')
 
+app.use('/', loginRouter);
 app.use('/login', loginRouter);
+app.use('/dashboard', dashboardRouter);
 app.use('/register', registerRouter);
 
 // catch 404 and forward to error handler
