@@ -1,0 +1,196 @@
+country,ISO Country code,political rights score 
+Afghanistan,AFG,5
+Albania,ALB,3
+Algeria,DZA,6
+Andorra,AND,1
+Angola,AGO,6
+Antigua & Barbuda,ATG,2
+Argentina,ARG,2
+Armenia,ARM,5
+Australia,AUS,1
+Austria,AUT,1
+Azerbaijan,AZE,7
+Bahamas,BHS,1
+Bahrain,BHR,7
+Bangladesh,BGD,4
+Barbados,BRB,1
+Belarus,BLR,6
+Belgium,BEL,1
+Belize,BLZ,1
+Benin,BEN,2
+Bhutan,BTN,3
+Bolivia,BOL,3
+Bosnia and Herzegovina,BIH,4
+Botswana,BWA,3
+Brazil,BRA,2
+Brunei,BRN,6
+Bulgaria,BGR,2
+Burkina Faso,BFA,4
+Burundi,BDI,7
+Cabo Verde,CPV,1
+Cambodia,KHM,6
+Cameroon,CMR,6
+Canada,CAN,1
+Central African Republic,CAF,7
+Chad,TCD,7
+Chile,CHL,1
+China,CHN,7
+Colombia,COL,3
+Comoros,COM,3
+Congo (Dem. Rep.),COD,7
+Congo (Rep.),COG,7
+Costa Rica,CRI,1
+Cote d'Ivoire,CIV,4
+Croatia,HRV,1
+Cuba,CUB,7
+Cyprus,CYP,1
+Czech Republic,CZE,1
+Denmark,DNK,1
+Djibouti,DJI,6
+Dominica,DMA,1
+Dominican Republic,DOM,3
+Ecuador,ECU,3
+Egypt,EGY,6
+El Salvador,SLV,2
+Equatorial Guinea,GNQ,7
+Eritrea,ERI,7
+Estonia,EST,1
+Eswatini,SWZ,7
+Ethiopia,ETH,7
+Fiji,FJI,3
+Finland,FIN,1
+France,FRA,1
+Gabon,GAB,7
+"Gambia, The",GMB,4
+Georgia,GEO,3
+Germany,DEU,1
+Ghana,GHA,1
+Greece,GRC,2
+Grenada,GRD,1
+Guatemala,GTM,4
+Guinea,GIN,5
+Guinea-Bissau,GNB,5
+Guyana,GUY,2
+Haiti,HTI,5
+Honduras,HND,4
+Hungary,HUN,3
+Iceland,ISL,1
+India,IND,2
+Indonesia,IDN,2
+Iran,IRN,6
+Iraq,IRQ,5
+Ireland,IRL,1
+Israel,ISR,1
+Italy,ITA,1
+Jamaica,JAM,2
+Japan,JPN,1
+Jordan,JOR,5
+Kazakhstan,KAZ,7
+Kenya,KEN,4
+Kiribati,KIR,1
+Korea (Dem. People’s Rep.),PRK,7
+Korea (Rep.),KOR,2
+Kosovo,-,3
+Kuwait,KWT,5
+Kyrgyzstan,KGZ,5
+Laos,LAO,7
+Latvia,LVA,2
+Lebanon,LBN,6
+Lesotho,LSO,3
+Liberia,LBR,3
+Libya,LBY,7
+Liechtenstein,LIE,2
+Lithuania,LTU,1
+Luxembourg,LUX,1
+Macedonia,MKD,4
+Madagascar,MDG,3
+Malawi,MWI,3
+Malaysia,MYS,4
+Maldives,MDV,5
+Mali,MLI,5
+Malta,MLT,1
+Marshall Islands,MHL,1
+Mauritania,MRT,6
+Mauritius,MUS,1
+Mexico,MEX,3
+Micronesia,FSM,1
+Moldova,MDA,3
+Monaco,MCO,3
+Mongolia,MNG,1
+Montenegro,MNE,3
+Morocco,MAR,5
+Mozambique,MOZ,4
+Myanmar,MMR,5
+Namibia,NAM,2
+Nauru,NRU,2
+Nepal,NPL,3
+Netherlands,NLD,1
+New Zealand,NZL,1
+Nicaragua,NIC,5
+Niger,NER,4
+Nigeria,NGA,3
+Norway,NOR,1
+Oman,OMN,6
+Pakistan,PAK,4
+Palau,PLW,1
+Panama,PAN,2
+Papua New Guinea,PNG,3
+Paraguay,PRY,3
+Peru,PER,2
+Philippines,PHL,3
+Poland,POL,1
+Portugal,PRT,1
+Qatar,QAT,6
+Romania,ROU,2
+Russia,RUS,7
+Rwanda,RWA,6
+Saint Kitts and Nevis,KNA,1
+Saint Lucia,LCA,1
+Saint Vincent and the Grenadines,VCT,1
+Samoa,WSM,2
+San Marino,SMR,1
+Sao Tome and Principe,STP,2
+Saudi Arabia,SAU,7
+Senegal,SEN,2
+Serbia,SRB,3
+Seychelles,SYC,3
+Sierra Leone,SLE,3
+Singapore,SGP,4
+Slovakia,SVK,1
+Slovenia,SVN,1
+Solomon Islands,SLB,3
+Somalia,SOM,7
+South Africa,ZAF,2
+South Sudan,SSD,7
+Spain,ESP,1
+Sri Lanka,LKA,3
+Sudan,SDN,7
+Suriname,SUR,2
+Sweden,SWE,1
+Switzerland,CHE,1
+Syria,SYR,7
+Taiwan,TWN,1
+Tajikistan,TJK,7
+Tanzania,TZA,4
+Thailand,THA,6
+Timor-Leste,TLS,2
+Togo,TGO,4
+Tonga,TON,2
+Trinidad and Tobago,TTO,2
+Tunisia,TUN,2
+Turkey,TUR,5
+Turkmenistan,TKM,7
+Tuvalu,TUV,1
+Uganda,UGA,6
+Ukraine,UKR,3
+United Arab Emirates,ARE,7
+United Kingdom,GBR,1
+United States,USA,2
+Uruguay,URY,1
+Uzbekistan,UZB,7
+Vanuatu,VUT,2
+Venezuela,VEN,6
+Vietnam,VNM,7
+Yemen,YEM,7
+Zambia,ZMB,4
+Zimbabwe,ZWE,6

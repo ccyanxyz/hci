@@ -1,0 +1,196 @@
+country,ISO Country code,control of corruption
+Afghanistan,AFG,-1.52
+Albania,ALB,-0.42
+Algeria,DZA,-0.61
+Andorra,AND,1.24
+Angola,AGO,-1.41
+Antigua & Barbuda,ATG,0.24
+Argentina,ARG,-0.26
+Armenia,ARM,-0.56
+Australia,AUS,1.80
+Austria,AUT,1.53
+Azerbaijan,AZE,-0.88
+Bahamas,BHS,1.17
+Bahrain,BHR,-0.14
+Bangladesh,BGD,-0.83
+Barbados,BRB,1.42
+Belarus,BLR,-0.26
+Belgium,BEL,1.50
+Belize,BLZ,-0.27
+Benin,BEN,-0.55
+Bhutan,BTN,1.57
+Bolivia,BOL,-0.66
+Bosnia and Herzegovina,BIH,-0.52
+Botswana,BWA,0.80
+Brazil,BRA,-0.53
+Brunei,BRN,0.71
+Bulgaria,BGR,-0.16
+Burkina Faso,BFA,-0.11
+Burundi,BDI,-1.28
+Cabo Verde,CPV,0.84
+Cambodia,KHM,-1.29
+Cameroon,CMR,-1.18
+Canada,CAN,1.92
+Central African Republic,CAF,-1.17
+Chad,TCD,-1.43
+Chile,CHL,1.04
+China,CHN,-0.27
+Colombia,COL,-0.37
+Comoros,COM,-0.68
+Congo (Dem. Rep.),COD,-1.42
+Congo (Rep.),COG,-1.33
+Costa Rica,CRI,0.47
+Cote d'Ivoire,CIV,-0.52
+Croatia,HRV,0.19
+Cuba,CUB,0.27
+Cyprus,CYP,0.78
+Czech Republic,CZE,0.57
+Denmark,DNK,2.19
+Djibouti,DJI,-0.64
+Dominica,DMA,0.65
+Dominican Republic,DOM,-0.74
+Ecuador,ECU,-0.60
+Egypt,EGY,-0.54
+El Salvador,SLV,-0.51
+Equatorial Guinea,GNQ,-1.83
+Eritrea,ERI,-1.20
+Estonia,EST,1.24
+Eswatini,SWZ,-0.30
+Ethiopia,ETH,-0.56
+Fiji,FJI,0.36
+Finland,FIN,2.22
+France,FRA,1.26
+Gabon,GAB,-0.81
+"Gambia, The",GMB,-
+Georgia,GEO,0.74
+Germany,DEU,1.84
+Ghana,GHA,-0.23
+Greece,GRC,-0.14
+Grenada,GRD,0.48
+Guatemala,GTM,-0.74
+Guinea,GIN,-1.01
+Guinea-Bissau,GNB,-1.56
+Guyana,GUY,-0.51
+Haiti,HTI,-1.24
+Honduras,HND,-0.72
+Hungary,HUN,0.09
+Iceland,ISL,1.84
+India,IND,-0.24
+Indonesia,IDN,-0.25
+Iran,IRN,-0.81
+Iraq,IRQ,-1.37
+Ireland,IRL,1.55
+Israel,ISR,0.83
+Italy,ITA,0.19
+Jamaica,JAM,-0.17
+Japan,JPN,1.52
+Jordan,JOR,0.26
+Kazakhstan,KAZ,-0.82
+Kenya,KEN,-0.96
+Kiribati,KIR,0.39
+Korea (Dem. People’s Rep.),PRK,-1.48
+Korea (Rep.),KOR,0.48
+Kosovo,-,-0.50
+Kuwait,KWT,-0.33
+Kyrgyzstan,KGZ,-1.05
+Laos,LAO,-0.94
+Latvia,LVA,0.54
+Lebanon,LBN,-1.00
+Lesotho,LSO,-0.03
+Liberia,LBR,-0.69
+Libya,LBY,-1.59
+Liechtenstein,LIE,2.06
+Lithuania,LTU,2.06
+Luxembourg,LUX,1.99
+Macedonia,MKD,-0.31
+Madagascar,MDG,-1.05
+Malawi,MWI,-0.65
+Malaysia,MYS,0.03
+Maldives,MDV,-0.79
+Mali,MLI,-0.63
+Malta,MLT,0.74
+Marshall Islands,MHL,0.00
+Mauritania,MRT,-0.75
+Mauritius,MUS,0.20
+Mexico,MEX,-0.93
+Micronesia,FSM,0.75
+Moldova,MDA,-0.80
+Monaco,MCO,-
+Mongolia,MNG,-0.45
+Montenegro,MNE,-0.09
+Morocco,MAR,-0.13
+Mozambique,MOZ,-0.86
+Myanmar,MMR,-0.56
+Namibia,NAM,0.32
+Nauru,NRU,-0.47
+Nepal,NPL,-0.75
+Netherlands,NLD,1.87
+New Zealand,NZL,2.24
+Nicaragua,NIC,-0.87
+Niger,NER,-0.65
+Nigeria,NGA,-1.07
+Norway,NOR,2.24
+Oman,OMN,0.25
+Pakistan,PAK,-0.78
+Palau,PLW,-0.47
+Panama,PAN,-0.54
+Papua New Guinea,PNG,-0.90
+Paraguay,PRY,-0.72
+Peru,PER,-0.50
+Philippines,PHL,-0.48
+Poland,POL,0.73
+Portugal,PRT,0.87
+Qatar,QAT,0.73
+Romania,ROU,-0.03
+Russia,RUS,-0.89
+Rwanda,RWA,0.63
+Saint Kitts and Nevis,KNA,0.51
+Saint Lucia,LCA,0.59
+Saint Vincent and the Grenadines,VCT,0.72
+Samoa,WSM,0.66
+San Marino,SMR,-
+Sao Tome and Principe,STP,0.14
+Saudi Arabia,SAU,0.36
+Senegal,SEN,-0.09
+Serbia,SRB,-0.37
+Seychelles,SYC,0.68
+Sierra Leone,SLE,-0.59
+Singapore,SGP,2.13
+Slovakia,SVK,0.22
+Slovenia,SVN,0.81
+Solomon Islands,SLB,0.11
+Somalia,SOM,-1.72
+South Africa,ZAF,-0.01
+South Sudan,SSD,-1.71
+Spain,ESP,0.49
+Sri Lanka,LKA,-0.45
+Sudan,SDN,-1.54
+Suriname,SUR,-0.17
+Sweden,SWE,2.14
+Switzerland,CHE,1.99
+Syria,SYR,-1.56
+Taiwan,TWN,0.96
+Tajikistan,TJK,-1.33
+Tanzania,TZA,-0.48
+Thailand,THA,-0.39
+Timor-Leste,TLS,-0.54
+Togo,TGO,-0.71
+Tonga,TON,-0.16
+Trinidad and Tobago,TTO,-0.36
+Tunisia,TUN,-0.11
+Turkey,TUR,-0.19
+Turkmenistan,TKM,-1.48
+Tuvalu,TUV,0.06
+Uganda,UGA,-1.04
+Ukraine,UKR,-0.78
+United Arab Emirates,ARE,1.13
+United Kingdom,GBR,1.84
+United States,USA,1.38
+Uruguay,URY,1.29
+Uzbekistan,UZB,-1.16
+Vanuatu,VUT,0.01
+Venezuela,VEN,-1.36
+Vietnam,VNM,-0.58
+Yemen,YEM,-1.59
+Zambia,ZMB,-0.54
+Zimbabwe,ZWE,-1.27
