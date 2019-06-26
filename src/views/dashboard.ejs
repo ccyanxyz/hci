@@ -32,20 +32,16 @@
                         <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-messages">
+						<% datasets.forEach(function(item){%>
                         <li>
                             <a href="#">
                                 <div>
-                                    <strong onclick="changeDataset('GINI index')">GINI index</strong>
+                                    <!--<strong onclick="changeDataset('GINI index')">GINI index</strong>-->
+									<strong> <%=item%> </strong>
                                 </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <strong onclick="changeDataset('happy planet index')">happy planet index</strong>
-                                </div>
-                            </a>
-                        </li>
+						<%})%>
                     </ul>
                     <!-- /.dropdown-messages -->
                 </li>
@@ -59,7 +55,10 @@
                             <a href="#">
                                 <div>
                                     <p>
-                                        <strong>Upload</strong>
+									<form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+										<input type="file" id="upload" name="dataset"/><br/>
+										<input type="submit", value="Upload"></input>
+									</form>
                                     </p>
                                 </div>
                             </a>

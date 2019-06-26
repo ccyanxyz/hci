@@ -8,37 +8,17 @@ var bodyParser = require('body-parser');
 router.use(bodyParser.urlencoded({ extended: false }));
 
 router.get('/', (req, res) => {
-	res.render('dashboard');
-});
-
-router.post('/', (req, res) => {
-	var _user = req.body;
-	var password = _user.password;
-	var email = _user.email;
-
-	console.log('post data:');
-	console.log(_user);
-
-	var query = { email: _user.email };
-
-	User.find(query, (err, users) => {
+	var datasets = [];
+	var u = req.session.user;
+	User.find({email: u.email}, (err, users) => {
 		if(err) {
-			console.log(err);
-			return;
-			
-		}
-		if(users.length === 0){
-			return res.redirect('../register');
-		}
-		var user = users[0]
-		if(user.password === password) {
-			console.log(user.mail + ' login success');
-			req.session.user = user;
-			return res.redirect('/');
+			console.log('find user failed');
+			res.send('user not found');
 		} else {
-			return res.redirect('/login');
+			console.log(users[0]);
+			res.render('dashboard', {datasets: users[0].datasets});
 		}
-	});
+	})
 });
 
 module.exports = router;

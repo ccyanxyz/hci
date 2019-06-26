@@ -1,10 +1,10 @@
-let width = 1600,
-	height = 800,
+let width = 600,
+	height = 300,
 	sens = 0.25;
 
 // set projection
 let projection = d3.geo.orthographic()
-	.scale(245)
+	.scale(160)
 	.rotate([0, 0])
 	.translate([width / 4 + 100, height / 2 - 50])
 	.clipAngle(90);
@@ -56,10 +56,10 @@ let stop2 = linearGradient.append("stop")
 					.attr("offset", "100%");
 
 let colorRect = svg.append("rect")
-					.attr("x", 100)
-					.attr("y", 100)
-					.attr("width", 30)
-					.attr("height", 200)
+					.attr("x", 30)
+					.attr("y", 30)
+					.attr("width", 10)
+					.attr("height", 50)
 					.style("fill", d3.rgb(255, 255, 255).toString());
 
 let minValueText = svg.append("text")

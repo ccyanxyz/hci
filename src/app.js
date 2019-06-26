@@ -11,6 +11,7 @@ var mongoose = require('mongoose')
 var registerRouter = require('./routes/register')
 var loginRouter = require('./routes/login')
 var dashboardRouter = require('./routes/dashboard')
+var uploadRouter = require('./routes/upload')
 
 var app = express();
 
@@ -36,6 +37,7 @@ app.use('/', loginRouter);
 app.use('/login', loginRouter);
 app.use('/dashboard', dashboardRouter);
 app.use('/register', registerRouter);
+app.use('/upload', uploadRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
