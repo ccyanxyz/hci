@@ -88,6 +88,35 @@
 	</head>
 	<body>
 		<script src="./main.js"></script>
+		<script src="/js/gest.js"></script>
+		<script>
+			document.addEventListener('gest', function(gesture) {
+				console.log(gesture);
+				let ratio = 10;
+				let change = Math.round(gesture.change * ratio);
+				let globe = svg.selectAll("path.land")
+				let rotate = projection.rotate()
+				console.log(rotate);
+				if (gesture.left) {
+					console.log("left")
+					projection.rotate([rotate[0] + change, rotate[1], rotate[2]]);
+				} else if (gesture.right) {
+					console.log("right")
+					projection.rotate([rotate[0] + change, rotate[1], rotate[2]]);
+				} else if (gesture.up) {
+					console.log("up")
+					projection.rotate([rotate[0], rotate[1] + change, rotate[2]]);
+				} else if (gesture.down) {
+					console.log("down")
+					projection.rotate([rotate[0], rotate[1] + change, rotate[2]]);
+				}
+				svg.selectAll(".grid_path").attr("d", path);
+				svg.selectAll("path.land").attr("d", path);
+				svg.selectAll(".focused").classed("focused", focused = false);
+			}, false)
+
+			gest.start()
+		</script>
 	</body>
 </html>
 
