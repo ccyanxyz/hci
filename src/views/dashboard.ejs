@@ -10,6 +10,8 @@
     <link href="/css/font-awesome.css" rel="stylesheet" />
         <!-- Custom Styles-->
     <link href="/css/custom-styles.css" rel="stylesheet" />
+    <!-- globe styles -->
+    <link href="/css/globe.css" rel="stylesheet" />
      <!-- Google Fonts-->
    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 </head>
@@ -33,12 +35,9 @@
                     </a>
                     <ul class="dropdown-menu dropdown-messages">
 						<% datasets.forEach(function(item){%>
-                        <li>
-                            <a href="#">
-                                <div>
-                                    <!--<strong onclick="changeDataset('GINI index')">GINI index</strong>-->
-									<strong> <%=item%> </strong>
-                                </div>
+                        <li  class="dataset" value="<%=item%>" >
+                            <a href="javascript:void(0)">
+									<%=item%> 
                             </a>
                         </li>
 						<%})%>
@@ -90,7 +89,7 @@
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
                     <li>
-                        <a class="active-menu" href="/dashboard"><i class="fa fa-fw fa-file"></i>Globe</a>
+                        <a class="active-menu" href="/dashboard"><i class="fa fa-fw fa-globe"></i>Globe</a>
                     </li>
                 </ul>
 
@@ -104,14 +103,13 @@
                             Globe <small> Build your globe.</small>
                         </h1>
 						<ol class="breadcrumb">
-					  <li><a href="#">Home</a></li>
-					  <li><a href="#">Globe</a></li>
-					  <li class="active">Data</li>
+					  <li><a href="javascript:void(0)">Home</a></li>
+					  <li><a href="javascript:void(0)">Globe</a></li>
 					</ol> 
 									
 		</div>
             <div id="page-inner"> 
-            	<iframe src="/index.html" width="1200 px", height="800 px"></iframe>
+            	<!-- <iframe src="/index.html" width="1200 px", height="800 px"></iframe> -->
 				</div>
              <!-- /. PAGE INNER  -->
             </div>
@@ -130,6 +128,14 @@
     <!-- houxinli script -->
     <script src="/js/dashboard.js"></script>
     
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/topojson.v1.min.js"></script>
+	<script src="http://d3js.org/queue.v1.min.js"></script>
+	<script src="https://d3js.org/d3-color.v1.min.js"></script>
+	<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	
+	<script src="/js/main.js"></script>
    
 </body>
 </html>
