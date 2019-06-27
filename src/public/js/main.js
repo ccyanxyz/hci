@@ -9,6 +9,17 @@ let width = 1000,
 		rect: {
 			x: 200, y:120, w:20, h: 60
 		}
+	},
+	_dataTip = {
+		dx: 7,
+		dy: -15,
+		dataRect: {
+			w: 100, h: 20
+		},
+		dataText: {
+			x: 10, y: 15, fill: 'black',
+			w_char: 9
+		}
 	};
 
 
@@ -48,10 +59,10 @@ let svg = d3.select("#page-inner").append("svg")
 // grid
 let graticule = d3.geo.graticule();
 
-let dataTip = d3.select("#page-inner")
-	.append("div")
-	.attr("class", "dataTip")
-	.attr("position", "abusolute")
+// let dataTip = d3.select("#page-inner")
+// 	.append("div")
+// 	.attr("class", "dataTip")
+// 	.attr("position", "fixed")
 
 // color band
 let defs = svg.append("defs");
@@ -98,6 +109,31 @@ let cur_data_value = "";
 // main
 function ready(error, world, countryData, dataset, weights) {
 
+	let dataTip = d3.select("svg")
+		.append("g")
+		.attr('id', "dataTip")
+
+	let dataRect = dataTip.append("rect")
+		.attr('id', "dataRect")
+		.attr('width', _dataTip.dataRect.w)
+		.attr('height', _dataTip.dataRect.h)
+		.style("fill", "white")
+
+	let dataText = dataTip.append("text")
+		.attr('id', "dataText")
+		.attr('x', _dataTip.dataText.x)
+		.attr('y', _dataTip.dataText.y)
+		.attr('fill', _dataTip.dataText.fill)
+
+	let cur_data = d3.select("svg").append("text")
+		.datum(cur_data_value)
+		.attr("class", "curdata")
+		.attr("x", 300)
+		.attr("y", 120)
+		.text(function(d){
+			return "current dataset: " + d;
+		})
+
 	let countryById = {},
 		countries = topojson.feature(world, world.objects.countries).features;
 	console.log("ready:", countries.length);
@@ -105,7 +141,6 @@ function ready(error, world, countryData, dataset, weights) {
 	countryData.forEach(function(d) {
 		countryById[d.id] = d.name;
 	});
-
 
 	// grid
 	grid = graticule();
@@ -136,43 +171,37 @@ function ready(error, world, countryData, dataset, weights) {
 			// let sel = document.getElementById("myselect");
 			// let key = sel.options[sel.selectedIndex].value;
 			let key = cur_data_value;
-			console.log("key_mouse:", key);
 			let value;
 			for(let i = 0; i < dataset.length; ++i) {
 				if(d.id == dataset[i].id) {
 					value = dataset[i][key];
 				}
 			}
-			dataTip.text(countryById[d.id] + ":" + Number(value).toFixed(2))
-				.style("left", (d3.event.offsetX + 7) + "px")
-				.style("top", (d3.event.offsetY - 15) + "px")
-				.style("display", function(d){
-					console.log("d3.event.offsetX:", d3.event.offsetX);
-					console.log("d3.event.offsetY:", d3.event.offsetY);
-					console.log("d3.event:", d3.event);
-					"block"
+			var text = countryById[d.id] + ":" + Number(value).toFixed(2);
+			var w_dataRect = text.length * _dataTip.dataText.w_char;
+			dataText
+				.text(text);
+			dataRect
+				.attr('width', w_dataRect)
+			dataTip
+				.attr("transform", function(d){
+					var tx = d3.event.offsetX + _dataTip.dx;
+					var ty = d3.event.offsetY + _dataTip.dy;
+					return ("translate(" + tx + ", " + ty +")");
 				})
 				.style("opacity", 1);
 		})
 		.on("mouseout", function(d) {
 			dataTip.style("opacity", 0)
-				.style("display", "none");
 		})
 		.on("mousemove", function(d) {
-			dataTip.style("left", (d3.event.offsetX + 7) + "px")
-				.style("top", (d3.event.offsetY - 15) + "px");
+			dataTip.attr("transform", function(d){
+				var tx = d3.event.offsetX + _dataTip.dx;
+				var ty = d3.event.offsetY + _dataTip.dy;
+				return ("translate(" + tx + ", " + ty +")");
+			});
 		});
 
-
-
-	cur_data = d3.select("svg").append("text")
-		.datum(cur_data_value)
-		.attr("class", "curdata")
-		.attr("x", 300)
-		.attr("y", 120)
-		.text(function(d){
-			return "current dataset: " + d;
-		})
 
 	// change dataset
 	d3.selectAll(".dataset").on("click", function(){
