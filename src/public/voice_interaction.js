@@ -1,12 +1,14 @@
 
 if (annyang) {
 	let ratio = 10;
-	let change = -Math.round(60);
+    let change = -Math.round(60);
+    let change_scale=30;
 	let rotate = projection.rotate()
 	let duration_frames = 18;
 	let d_roll = 0;
 	let d_pitch = 0;
-	let d_yaw = 0;
+    let d_yaw = 0;
+    let d_scale = 0;
 
     let commands = {
         "left": function() {
@@ -27,9 +29,11 @@ if (annyang) {
         },
         "zoom in": function() {
             changeByVoice("zoom-in");
+            d_scale =change_scale / duration_frames;
         },
         "zoom out": function() {
             changeByVoice("zoom-out")
+            d_scale = -change_scale / duration_frames;
         },
         "switch": function() {
             changeByVoice("switch");
@@ -43,7 +47,8 @@ if (annyang) {
 			if (frame++ == duration_frames) {
 				return true;
 			}
-			projection.rotate([rotate[0] + d_roll * frame, rotate[1] + d_pitch * frame, rotate[2] + d_yaw * frame])
+            projection.rotate([rotate[0] + d_roll * frame, rotate[1] + d_pitch * frame, rotate[2] + d_yaw * frame])
+            projection.scale([Math.min(Math.max(projection.scale()+d_scale,10),500)]);
 			svg.selectAll(".grid_path").attr("d", path);
 			svg.selectAll("path.land").attr("d", path);
 			svg.selectAll(".focused").classed("focused", focused = false);
