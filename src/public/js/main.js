@@ -296,3 +296,29 @@ function ready(error, world, countryData, dataset, weights) {
 
 	};
 };
+
+function switchByVoice() {
+	var datasets = d3.selectAll(".dataset")
+		.attr("id", function(d, i){
+			return "dataset_" + String(i)
+		});
+	try{
+		var cur_val = cur_data_value + ".csv"
+		var cur_op = d3.select("[value='"+cur_val+"']");
+		console.log("cur_op", cur_op);
+		var cur_id = cur_op.attr('id')
+		console.log("cur_id:", cur_id);
+		var tar_order = Number(cur_id.split('_')[1])+1;
+		var tar_id = "dataset_" + tar_order;
+		console.log("tar_id:", tar_id);
+		var tar_op = document.getElementById(tar_id);
+		console.log("tar_op:", tar_op);
+		tar_op.click();	
+	}
+	catch(err){
+		console.log("err:", err)
+		document.getElementById("dataset_0").click();
+	}
+	// tar_op.dispatch('click');
+
+}
