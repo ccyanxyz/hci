@@ -3,6 +3,7 @@ active = false;
 document.addEventListener('gest', function(gesture) {
 	let ratio = 10;
 	let change = -Math.round(gesture.change * ratio);
+	console.log(change)
 	let rotate = projection.rotate()
 	let duration_frames = 18;
 	let d_roll = 0;
