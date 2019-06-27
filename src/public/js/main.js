@@ -1,5 +1,4 @@
-
-let width = 1000,
+let width = window.innerWidth + 200,
 	height = 800,
 	sens = 0.25,
 	legend = {
@@ -125,14 +124,14 @@ function ready(error, world, countryData, dataset, weights) {
 		.attr('y', _dataTip.dataText.y)
 		.attr('fill', _dataTip.dataText.fill)
 
-	let cur_data = d3.select("svg").append("text")
-		.datum(cur_data_value)
-		.attr("class", "curdata")
-		.attr("x", 300)
-		.attr("y", 120)
-		.text(function(d){
-			return "current dataset: " + d;
-		})
+	// let cur_data = d3.select("svg").append("text")
+	// 	.datum(cur_data_value)
+	// 	.attr("class", "curdata")
+	// 	.attr("x", 300)
+	// 	.attr("y", 120)
+	// 	.text(function(d){
+	// 		return "current dataset: " + d;
+	// 	})
 
 	let countryById = {},
 		countries = topojson.feature(world, world.objects.countries).features;
@@ -212,6 +211,8 @@ function ready(error, world, countryData, dataset, weights) {
 		var index_suf = filename.indexOf(suffix);
 		var key = filename.substr(0, index_suf);
 		console.log("key outside:", key);
+		d3.select("#dataset_breadcrumb")
+			.text(key);
 		filepath += filename;
 		console.log("filepath", filepath)
 		var match_key = "ISO Country code";
@@ -242,12 +243,12 @@ function ready(error, world, countryData, dataset, weights) {
 
 		cur_data_value = key;
 
-		cur_data
-		.datum(cur_data_value)
-		.text(function(d){
-			console.log("cur_data:", d)
-			return "current dataset: " + d;
-		})
+		// cur_data
+		// .datum(cur_data_value)
+		// .text(function(d){
+		// 	console.log("cur_data:", d)
+		// 	return "current dataset: " + d;
+		// })
 
 		let max = 0;
 		let min = 10000000000000000;
