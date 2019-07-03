@@ -25,13 +25,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><strong>Dashboard</strong></a>
+                <a class="navbar-brand" href="javascript:void(0)"><strong>Dashboard</strong></a>
             </div>
 
             <ul class="nav navbar-top-links navbar-right">
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
-                        <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
+                        <i class="fa fa-file fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-messages">
 						<% datasets.forEach(function(item){%>
@@ -47,7 +47,7 @@
                 <!-- /.dropdown -->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
-                        <i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i>
+                        <i class="fa fa-upload fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-tasks">
                         <li>
@@ -55,8 +55,8 @@
                                 <div>
                                     <p>
 									<form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
-										<input type="file" id="upload" name="dataset"/><br/>
-										<input type="submit", value="Upload"></input>
+										<input  type="file" id="upload" name="dataset"/><br/>
+										<input class="btn btn-primary" type="submit", value="Upload"></input>
 									</form>
                                     </p>
                                 </div>
@@ -71,7 +71,7 @@
                         <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="javascript:void(0);" onclick="switchByVoice()"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="/login"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -94,10 +94,10 @@
         <!-- /. NAV SIDE  -->
         <div id="page-wrapper">
 		  <div class="header"> 
-                        <h1 class="page-header">
+                        <!-- <h1 class="page-header">
                             Globe <small> Build your globe.</small>
                         </h1>
-						<ol class="breadcrumb">
+ -->						<ol class="breadcrumb">
 					  <li><a href="javascript:void(0)">Home</a></li>
                       <li><a href="javascript:void(0)">Globe</a></li>
 					  <li class="active" id="dataset_breadcrumb"></li>

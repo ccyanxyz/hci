@@ -1,5 +1,5 @@
 let width = window.innerWidth + 200,
-	height = 800,
+	height = 600,
 	sens = 0.25,
 	legend = {
 		x: 200,
