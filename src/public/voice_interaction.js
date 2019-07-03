@@ -1,3 +1,28 @@
+function expand() {
+	projection = d3.geo.orthographic()
+    	.scale(10)
+    	.rotate([100, 100])
+	path = d3.geo.path(projection)
+
+
+	 svg.selectAll(".grid_path").attr("d", path);
+	 svg.selectAll("path.land").attr("d", path);
+	 svg.selectAll(".focused").classed("focused", focused = false);
+}
+
+function fold() {
+	projection = d3.geo.orthographic()
+		.scale(160)
+		.rotate([0, 0])
+		//.translate([width / 4 + 100, height / 2 - 50])
+		//.clipAngle(90);
+
+	console.log("fold call")
+	path = d3.geo.path(projection)
+	svg.selectAll(".grid_path").attr("d", path);
+	svg.selectAll("path.land").attr("d", path);
+	svg.selectAll(".focused").classed("focused", focused = false);
+}
 
 if (annyang) {
 	let ratio = 10;
@@ -37,7 +62,16 @@ if (annyang) {
         },
         "switch": function() {
             changeByVoice("switch");
+			switchByVoice();
         },
+		"expand": function() {
+            changeByVoice("expand");
+			expand();
+        },
+		"fold": function() {
+			changeByVoice("fold");
+			fold();
+		}
     };
 
 	var func = function() {
