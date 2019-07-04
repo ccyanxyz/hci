@@ -23,4 +23,4 @@ npm install
 npm start
 ```
 
-4.Go to http://localhost:8000/login to see the demo
+4.Go to http://localhost:3000/login to see the demo
