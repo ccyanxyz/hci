@@ -86,7 +86,6 @@ let cur_data_value = "";
 
 // main
 function ready(error, world, countryData, dataset, weights) {
-
 	let countryById = {},
 		countries = topojson.feature(world, world.objects.countries).features;
 	console.log(countries.length);
